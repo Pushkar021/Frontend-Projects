@@ -4,11 +4,11 @@ This is a collection of my frontend projects!
 
 **Explore my creations:**
 
-* **YouTube Clone:** A web application mimicking the core functionalities of YouTube.
-* **Solanki Brothers Website:** A website showcasing something (perhaps your portfolio?).
+* **YouTube Clone:** A web application replicating YouTube Homepage.
+* **Solanki Brothers Website:**  My first website creation, showcasing my skills. .
 * **Stone-Paper-Scissor (Using JavaScript):** A classic game built with JavaScript.
 * **Simon Game (Using JavaScript):** Test your memory and reflexes with this interactive game.
-* **Currency Converter:** A user-friendly tool for converting currencies.
+* **Currency Converter:** A user-friendly tool for converting currencies. (Currently encountering an API issue, fix in progress.)
 
 **Live Demos:**
 
