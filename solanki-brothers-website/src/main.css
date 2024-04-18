@@ -1,0 +1,128 @@
+.main {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cover {
+  background-color: #009c921d;
+  width: 100%;
+}
+
+.m1 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2rem;
+  font-family: sans-serif;
+  height: 250px;
+}
+
+.mailbutton {
+  color: black;
+  border: solid;
+  border-width: 2px;
+  transition: 1s;
+border-radius: 6px;
+  height: 32px;
+  padding: 6px 12px 6px 12px;
+}
+
+.mailbutton:hover {
+  color: white;
+  background-color: black;
+}
+
+.fa-regular fa-envelope fa-2x {
+  display: inline-block;
+  width: 12px;
+}
+
+.logo {
+  /* width:400.600px; */
+  height: 350.6px;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10px;
+}
+
+.checkthisout {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 10px;
+}
+
+.checkthisout:hover {
+  opacity: 0.7;
+}
+
+.included {
+  margin: auto;
+  width: auto;
+
+  padding: 10px;
+  text-align: center;
+}
+
+.ww {
+  display: block;
+}
+
+.uperfooter {
+  min-height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 30px;
+  margin-top: 8px;
+  background-color: #009b9147;
+}
+
+.get,
+.comingsoon {
+  display: flex;
+
+  align-items: center;
+}
+
+.get {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+
+  justify-content: space-between;
+}
+
+.op2 {
+  margin-bottom: 10px;
+}
+
+.op3 {
+  margin-top: 30px;
+}
+
+.know {
+  background-color: #00645d;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  /* text-decoration: none; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.know:hover {
+  transition: 1.2s;
+  opacity: 0.9;
+  background-color: white;
+  color: black;
+}

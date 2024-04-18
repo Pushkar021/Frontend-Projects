@@ -1,0 +1,166 @@
+.header {
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(192, 192, 192);
+  z-index: 100;
+}
+
+.search {
+  width: 400px;
+  font-size: 13px;
+  font-weight: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: solid;
+  border-color: rgb(192, 192, 192);
+  border-width: 0.5px;
+  border-radius: 30px;
+  box-shadow: inset 0px 2px 3px rgb(0, 0, 0, 0.05);
+}
+
+.search::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+.center {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger-menu {
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.youtube-logo {
+  height: 20px;
+}
+
+.searchbutton {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+}
+
+.searchbutton:hover {
+  background-color: rgb(192, 192, 192);
+  border-radius: 25px;
+  transition: 0.7;
+}
+
+.searchbox {
+  height: 20px;
+  background-color: transparent;
+}
+
+.voicebutton {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  border: none;
+  margin-left: 30px;
+}
+
+.voice {
+  height: 25px;
+}
+
+.voicebutton:active {
+  background-color: rgb(195, 195, 195);
+}
+
+.voicebutton:hover {
+  background-color: rgb(192, 192, 192);
+}
+
+.youtube-apps {
+  height: 30px;
+}
+
+.notifications {
+  height: 30px;
+}
+
+.upload {
+  height: 30px;
+}
+
+.userright {
+  height: 35px;
+  border-radius: 19px;
+}
+.searchbutton {
+  position: relative;
+}
+
+.searchbutton .tooltip {
+  font-family: Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.searchbutton:hover .tooltip {
+  opacity: 1;
+}
+.voicebutton .tooltip {
+  font-family: Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.voicebutton:hover .tooltip {
+  opacity: 1;
+}

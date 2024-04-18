@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../src/exchange.png">
+</head>
+
+<body>
+    <div class="container">
+
+        <div>
+            <h2>Currency Converter</h2>
+        </div>
+        <div class="main-container">
+            <form action="">
+                <div class="class">
+                    <p>Enter Amount</p>
+                </div>
+                <input id="vale" value="100" type="text">
+            </form>
+            <div class="menu">
+                <div class="from">
+                    <p>From</p>
+                    <div class="dropdown">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from" id="from">
+
+                        </select>
+                    </div>
+                </div>
+
+                <i id="icon" class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="dropdown"><img id="flagto" src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to">
+
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">
+                1 USD = 80 INR
+
+            </div>
+        </div>
+        <button class="btn">
+            Click Here To Get The Value
+        </button>
+    </div>
+    <script src="country.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

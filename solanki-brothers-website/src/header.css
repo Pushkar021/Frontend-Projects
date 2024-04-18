@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00645d;
+  color: #fff;
+  padding: 20px 30px;
+
+  height: 100px;
+}
+
+
+.left {
+  display: flex;
+  /* justify-content:center; */
+  /* margin: 0 auto; */
+  /* background-color: #00645d; */
+  color: #fff;
+  /* padding: 20px 30px 0px 20px; */
+  padding-right: 30px;
+  font-family: "Raleway", sans-serif;
+  /* font-size: 40px; */
+  line-height: 48px;
+  font-weight: 500;
+  margin-left: -10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  width: 200px;
+  text-align: start;
+}
+
+
+
