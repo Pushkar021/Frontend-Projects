@@ -9,6 +9,7 @@ This is a collection of my frontend projects!
 * **Stone-Paper-Scissor (Using JavaScript):** A classic game built with JavaScript.
 * **Simon Game (Using JavaScript):** Test your memory and reflexes with this interactive game.
 * **Currency Converter:** A user-friendly tool for converting currencies. (Currently encountering an API issue, fix in progress.)
+* **Tic Tac Toe:** A strategic two-player game implemented using JS.
 
 **Live Demos:**
 
@@ -19,5 +20,6 @@ Click the links below to see the projects in action:
 * [Stone-Paper-Scissor](https://pushkar021.github.io/Frontend-Projects/Stone-Paper-Scissor-Using-JS/src/)
 * [Simon Game](https://pushkar021.github.io/Frontend-Projects/Simon-Game-Using-js/src)
 * [Currency Converter](https://pushkar021.github.io/Frontend-Projects/Currency-Converter/src/)
+* [Tic-Tac-Toe](https://pushkar021.github.io/Frontend-Projects/Tic-Tac-Toe/index.html)
 
 I'm constantly learning and building new things. Feel free to explore my code and provide feedback!
