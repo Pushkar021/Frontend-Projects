@@ -44,8 +44,8 @@ const handlePanelClick = (event) => {
           console.log("Flashes per round:", flashesPerRound);
 
           playRound();
-        }, 700);
-      }, 100);
+        }, 500);
+      }, 1);
     }
   } else {
     points = 0;
@@ -66,7 +66,7 @@ const playRound = async () => {
 
   for (const panel of gamePattern) {
     await flash(panel);
-    await new Promise((resolve) => setTimeout(resolve, 300));
+    await new Promise((resolve) => setTimeout(resolve, 400));
   }
 };
 
@@ -120,7 +120,7 @@ bottomleft.addEventListener("click", () => {
 });
 
 function playSound(name) {
-  let audio = new Audio("../public/sounds_" + name + ".mp3");
+  let audio = new Audio("sounds_" + name + ".mp3");
   audio.play();
 }
 
