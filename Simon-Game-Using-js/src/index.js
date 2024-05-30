@@ -120,7 +120,7 @@ bottomleft.addEventListener("click", () => {
 });
 
 function playSound(name) {
-  let audio = new Audio("sounds_" + name + ".mp3");
+let audio = new Audio("../public/sounds_" + name + ".mp3");
   audio.play();
 }
 
