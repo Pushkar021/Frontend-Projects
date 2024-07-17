@@ -1,0 +1,97 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.title {
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.container1, .container2, .container3, .container4 {
+  height: 200px;
+  width: 70px;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+font-family: "Open Sans", sans-serif;
+}
+.hscore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   font-family: "Open Sans", sans-serif;
+  height: 30px;
+  margin-top: 30px;
+  font-size: 30px;
+  
+}
+
+@media (max-width: 600px) {
+  .container1, .container2, .container3, .container4 {
+    width: 50px;
+    height: 150px;
+    padding: 10px;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+
+  .title {
+    font-size: 1.2em;
+  }
+
+  .result {
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+}
