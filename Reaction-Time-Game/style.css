@@ -72,6 +72,43 @@ font-family: "Open Sans", sans-serif;
   font-size: 30px;
   
 }
+.exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   font-family: "Open Sans", sans-serif;
+  height: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  
+}
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.github a {
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+}
+.github a i {
+  font-size: 24px;
+}
+
+.github a:hover {
+  background-color: #555;
+}
 
 @media (max-width: 600px) {
   .container1, .container2, .container3, .container4 {
@@ -93,5 +130,14 @@ font-family: "Open Sans", sans-serif;
   .result {
     padding: 5px 10px;
     font-size: 0.9em;
+  }
+
+  .github a {
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+
+  .github a i {
+    font-size: 20px;
   }
 }
