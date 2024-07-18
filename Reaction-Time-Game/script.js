@@ -5,6 +5,7 @@ const container4 = document.querySelector(".container4");
 const dice = document.querySelector(".body1");
 let result = document.querySelector(".result");
 let hscore = document.querySelector(".hscore");
+let exp = document.querySelector(".exp");
 let rand;
 let arr = [];
 let a = 0, b = 0, c = 0, d = 0;
@@ -123,8 +124,11 @@ function four() {
     });
 }
 
-let randomNumber1 = Math.floor(Math.random() * 60);
-rand = randomNumber1 * 100;
+function randint(){
+    let randomNumber1 = Math.floor(Math.random() * 60);
+    rand = randomNumber1 * 100;
+    return rand
+}
 
 function nw2() {
     return new Promise((resolve, reject) => {
@@ -134,7 +138,8 @@ function nw2() {
             fn2();
             fn3();
             fn4();
-        }, rand);
+        },randint() ,
+                 );
     });
 }
 
@@ -176,7 +181,6 @@ function onDiceClick() {
         let f1 = Math.min(...arr)
         console.log(f1)
         hscore.innerHTML = `highest score: ${f1}`
-        
         aftertime = 0;
         beforetime = 0;
         condition = false;
@@ -188,6 +192,7 @@ function onDiceClick() {
         y();
     } else {
         result.innerHTML = "Early Start!"
+        
         o = false;
         y();
     }
@@ -206,11 +211,10 @@ function startNewGame() {
     nw();
     dice.addEventListener("click", onDiceClick);
 }
-dice.addEventListener("dblclick", (e) => {
-    e.preventDefault();
-}, { passive: false });
 
 nw();
 main();
-console.log(rand);
 
+dice.addEventListener("dblclick", (e) => {
+    e.preventDefault();
+}, { passive: false });
