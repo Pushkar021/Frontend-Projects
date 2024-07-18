@@ -206,7 +206,9 @@ function startNewGame() {
     nw();
     dice.addEventListener("click", onDiceClick);
 }
-
+dice.addEventListener("dblclick", (e) => {
+    e.preventDefault();
+}, { passive: false });
 
 nw();
 main();
