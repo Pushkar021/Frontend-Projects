@@ -6,6 +6,7 @@ const dice = document.querySelector(".body1");
 let result = document.querySelector(".result");
 let hscore = document.querySelector(".hscore");
 let exp = document.querySelector(".exp");
+let gameInProgress = false;
 let rand;
 let arr = [];
 let a = 0, b = 0, c = 0, d = 0;
@@ -143,17 +144,22 @@ function nw2() {
     });
 }
 
+
+
 async function nw() {
-    repeat = false;
-    try {
-        o && await one();
-        o && await two();
-        o && await three();
-        o && await four();
-        o && await nw2();
-    } catch (error) {
-        console.log(error);  // Handle early stop gracefully
-    }
+  if (gameInProgress) return; // prevent multiple game starts
+  gameInProgress = true;
+  try {
+    o && (await one());
+    o && (await two());
+    o && (await three());
+    o && (await four());
+    o && (await nw2());
+  } catch (error) {
+    console.log(error); 
+  } finally {
+    gameInProgress = false; 
+  }
 }
 
 function startTimer() {
