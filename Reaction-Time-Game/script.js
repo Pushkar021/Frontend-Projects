@@ -143,10 +143,8 @@ function nw2() {
     });
 }
 
-
-
 async function nw() {
- repeat = false;
+    repeat = false;
     try {
         o && await one();
         o && await two();
